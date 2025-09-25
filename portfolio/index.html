@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Student Profiles</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  
+  <section id="welcome" class="active">
+    <h1>Welcome! <br>to <br>Students Profile</h1>
+    <button onclick="navigate('home')">Open</button>
+    <img src="/assets/images/e17eadf8-2fcb-4832-8fbc-b442ce0f78c3.jpg "alt="" height="280px">
+  </section>
+  
+  
+  <section id="home">
+    <h1>Student Profiles</h1>
+    <button onclick="navigate('welcome')">Back</button>
+
+    <div class="student-list">
+      <div class="student-card">
+        <img src="/assets/images/504726042_717830864164257_2638968306848379688_n.jpg" alt="" height="200px">
+        <h3><button onclick="navigate('patrickProfile')">Patrick U. Gonzales</button></h3>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="patrickProfile">
+    <img src="/assets/images/504726042_717830864164257_2638968306848379688_n.jpg" alt="" height="200px">
+    <h1>Patrick U. Gonzales</h1>
+    <button onclick="navigate('home')">Back</button>
+
+    <div>
+      <button onclick="navigate('patrickHobbies')">Hobbies</button>
+      <button onclick="navigate('patrickMyGitHub')">MyGitHub</button>
+      <button onclick="navigate('patrickActivities')">Activities</button>
+      <button onclick="navigate('patrickContact')">Contact</button>
+    </div>
+
+    <section>
+      <p><b>Name:</b> Patrick U. Gonzales</p>
+      <p><b>Age:</b> 19</p>
+      <p><b>Birthday:</b> June 07, 2006</p>
+      <p><b>Address:</b> Barangay Tibag, Abra De Ilog Occidental Mindoro</p>
+      <p><b>Birthplace:</b> Mamburao</p>
+    </section>
+  </section>
+
+  
+  <section id="patrickHobbies">
+    <h2>Hobbies</h2>
+    <p>Example hobbies content goes here...</p>
+    <p>Playing Basketball</p>
+    <p></p>
+    <button onclick="navigate('patrickProfile')">Back</button>
+  </section>
+
+  
+  <section id="patrickMyGitHub">
+    <h2>MyGitHub</h2>
+    <p>
+      <a
+      href="">
+
+      </a>
+    </p>
+    <button onclick="navigate('patrickProfile')">Back</button>
+  </section>
+
+ 
+  <section id="patrickActivities">
+    <h2>Activities</h2>
+    <p>Assessment 2 (Laboratory - by Group) DONE </p>
+<div><p>Assessment OS Installation (Individual) DONE</p>
+<img src="/assets/images/awan.png"alt="" height="150px"></div>
+<div><p>Lesson 2 Assessment 1 (Individual) DONE</p>
+<img src="/assets/images/alison.png" alt="" height="150px"></div>
+    <button onclick="navigate('patrickProfile')">Back</button>
+  </section>
+
+  
+
+  <section id="patrickContact">
+    <h2>Contact</h2>
+     <p><b>Email:</b> gonzalespangks07@gmail.com</p>
+    <p><b>Contact Number:</b> 09912668937</p>
+    <button onclick="navigate('patrickProfile')">Back</button>
+  </section>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
